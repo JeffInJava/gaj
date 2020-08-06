@@ -1,0 +1,87 @@
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.bgcolor {
+	BACKGROUND-IMAGE: url(images/bodyBg.gif)
+}
+.line01 {
+	BORDER-RIGHT: #d9d9d9 1px solid; BACKGROUND: #ffffff; BORDER-LEFT: #d9d9d9 1px solid
+}
+.bg_lefttopy {
+	BACKGROUND-POSITION: left top; BACKGROUND-REPEAT: repeat-y
+}
+.home_top {
+	BORDER-TOP: #4798ed 2px solid
+}
+.home_path {
+	PADDING-RIGHT: 10px; FONT-SIZE: 11px; BACKGROUND: #4798ed; COLOR: #f0f0f0
+}
+.bg_righttopy {
+	BACKGROUND-POSITION: right top; BACKGROUND-REPEAT: repeat-y
+}
+TD {
+	FONT-SIZE: 11px; COLOR: #000000; LINE-HEIGHT: 165%; FONT-FAMILY: "Arial"
+}
+TH {
+	FONT-SIZE: 11px; COLOR: #000000; LINE-HEIGHT: 165%; FONT-FAMILY: "Arial"
+}
+CAPTION {
+	FONT-SIZE: 11px; COLOR: #000000; LINE-HEIGHT: 165%; FONT-FAMILY: "Arial"
+}
+.input_search_blue {
+	BORDER-RIGHT: #5d94cc 1px solid; BORDER-TOP: #5d94cc 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #5d94cc 1px solid; COLOR: #000000; BORDER-BOTTOM: #5d94cc 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ffffff
+}
+.userTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ff6600
+}
+.RedColor {
+	COLOR: red
+}
+.GreenFont {
+	FONT-SIZE: 11px; COLOR: #4fdf68
+}
+.BlueFont {
+	FONT-SIZE: 11px; COLOR: #0066ff
+}
+.BGrayBG1 {
+	BACKGROUND: #f1eff1; BORDER-BOTTOM: #807d76 1px dotted
+}
+.BGrayBG2 {
+	BACKGROUND: #d6d7d6; BORDER-BOTTOM: #807d76 1px dotted
+}
+.BLine {
+	MARGIN: 10px 0px; BORDER-BOTTOM: #807d76 1px dotted
+}
+.hrLine {
+	MARGIN: 0px; BORDER-BOTTOM: #807d76 1px dotted
+}
+.Dv_onmouse {
+	CURSOR: pointer
+}
+.TableBorder1 {
+	BORDER-RIGHT: #482400 1px solid; BORDER-TOP: #482400 1px solid; BORDER-LEFT: #482400 1px solid; WIDTH: 98%; BORDER-BOTTOM: #482400 1px solid; BACKGROUND-COLOR: #ffffff
+}
+TH {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; BACKGROUND-COLOR: #18a6f7
+}
+.reg_input {
+	BORDER-RIGHT: #d4d4d4 1px solid; BORDER-TOP: #d4d4d4 1px solid; BORDER-LEFT: #d4d4d4 1px solid; COLOR: #4d4d4d; BORDER-BOTTOM: #d4d4d4 1px solid; HEIGHT: 22px; BACKGROUND-COLOR: #fafafa
+}
+INPUT {
+	BORDER-RIGHT: #d4d4d4 1px solid; BORDER-TOP: #d4d4d4 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #d4d4d4 1px solid; COLOR: #4d4d4d; BORDER-BOTTOM: #d4d4d4 1px solid; FONT-FAMILY: "Arial"; HEIGHT: 22px; BACKGROUND-COLOR: #fafafa
+}
+botton {
+	BORDER-RIGHT: #d4d4d4 1px solid; BORDER-TOP: #d4d4d4 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #d4d4d4 1px solid; COLOR: #4d4d4d; BORDER-BOTTOM: #d4d4d4 1px solid; FONT-FAMILY: "Arial"; HEIGHT: 22px; BACKGROUND-COLOR: #fafafa
+}
+SELECT {
+	FONT-SIZE: 11px; FONT-FAMILY: "Arial"
+}

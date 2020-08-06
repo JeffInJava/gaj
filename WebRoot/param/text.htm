@@ -1,0 +1,20 @@
+<script language="JavaScript" type="text/JavaScript">
+	function select1_click(){
+			domcument.text.value=document.select1.value;
+	}
+</script>
+<form name="form1" method="post" action="">
+	<select name="select1" style="width:auto" onChange="select1_click()">
+		<OPTION value=1>1</OPTION>
+		<OPTION value=2>2</OPTION>
+		<OPTION value=3>3</OPTION>
+		<OPTION value=4>4</OPTION>
+	</select>
+	<select name="select2" style="width:auto">
+		<OPTION value=1>1</OPTION>
+		<OPTION value=2>2</OPTION>
+		<OPTION value=3>3</OPTION>
+		<OPTION value=4>4</OPTION>
+	</select>
+	<input name="text" type="text" value="">
+</form>
