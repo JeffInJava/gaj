@@ -21,8 +21,8 @@ border=0>
 
   <TR>
     <TD bgColor=#ffffff height=5>
-      <P>　　　　　<IMG height=7 src="img/top_nav_bar.gif" width=12>	<A href="javascript:toPage('equip_user_situation.jsp');"><%=i++%>--闸机中票卡使用情况明细报表</A></P></TD></TR>
-
+      <%-- <P>　　　　　<IMG height=7 src="img/top_nav_bar.gif" width=12>	<A href="javascript:toPage('equip_user_situation.jsp');"><%=i++%>--闸机中票卡使用情况明细报表</A></P></TD></TR> --%>
+<P>　　　　　<IMG height=7 src="img/top_nav_bar.gif" width=12>	<A href="javascript:toPage('para.jsp?report_name=equip_user_situation&amp;param_type=equip_ticket_usage_status&amp;report_name_cn=闸机中票卡使用情况明细报表');"><%=i++%>--闸机中票卡使用情况明细报表</A></P></TD></TR>
 
   <TR>
     <TD bgColor=#ffffff height=5>
@@ -34,17 +34,20 @@ border=0>
 
   <TR>
     <TD bgColor=#ffffff height=5>
-      <P>　　　　　<IMG height=7 src="img/top_nav_bar.gif" width=12>	<A href="javascript:toPage('query_cardid.jsp');"><%=i++%>--进出站记录模糊查询表</A></P></TD></TR>
+      <%-- <P>　　　　　<IMG height=7 src="img/top_nav_bar.gif" width=12>	<A href="javascript:toPage('query_cardid.jsp');"><%=i++%>--进出站记录模糊查询表</A></P></TD></TR> --%>
+      <P>　　　　　<IMG height=7 src="img/top_nav_bar.gif" width=12>	<A href="javascript:toPage('para.jsp?report_name=query_cardid&amp;param_type=in_out_log_search&amp;report_name_cn=进出站记录模糊查询表');"><%=i++%>--进出站记录模糊查询表</A></P></TD></TR>
 
 <TR>
     <TD bgColor=#ffffff height=5>
-      <P>　　　　　<IMG height=7 src="img/top_nav_bar.gif" width=12>	<A href="javascript:toPage('equip_user_situation1.jsp');"><%=i++%>--闸机中工作证使用情况明细报表</A></P></TD></TR>
+      <%-- <P>　　　　　<IMG height=7 src="img/top_nav_bar.gif" width=12>	<A href="javascript:toPage('equip_user_situation1.jsp');"><%=i++%>--闸机中工作证使用情况明细报表</A></P></TD></TR> --%>
+      <P>　　　　　<IMG height=7 src="img/top_nav_bar.gif" width=12>	<A href="javascript:toPage('para.jsp?report_name=equip_user_situation1&amp;param_type=equip_ticket_usage_status&amp;report_name_cn=闸机中工作证使用情况明细报表');"><%=i++%>--闸机中工作证使用情况明细报表</A></P></TD></TR>
 
 <TR>
     
     <TD bgColor=#ffffff height=5>
       
-      <P>　　　　　<IMG height=7 src="img/top_nav_bar.gif" width=12>	<A href="javascript:toPage('station_user_situation.jsp');"><%=i++%>--车站进出站明细表</A></P></TD></TR>
+      <%-- <P>　　　　　<IMG height=7 src="img/top_nav_bar.gif" width=12>	<A href="javascript:toPage('station_user_situation.jsp');"><%=i++%>--车站进出站明细表</A></P></TD></TR> --%>
+      <P>　　　　　<IMG height=7 src="img/top_nav_bar.gif" width=12>	<A href="javascript:toPage('para.jsp?report_name=station_user_situation&amp;param_type=station_in_out_log&amp;report_name_cn=进出站记录模糊查询表');"><%=i++%>--车站进出站明细表</A></P></TD></TR>
 
 <form id="formId" action="home.jsp" method="post" target="_blank" >
 			<input type="hidden" name="menuPath" id="menuPath">
