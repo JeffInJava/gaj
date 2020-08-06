@@ -16,7 +16,8 @@ border=0>
  <TBODY>
    <TR>
     <TD bgColor=#ffffff height=5>
-      <P>　　　　　<IMG height=7 src="img/top_nav_bar.gif" width=12>	<A href="javascript:toPage('equip_change.jsp');"><%=i++%>--车站设备编号与系统内设备号转换报表</A></P></TD></TR>
+      <%-- <P>　　　　　<IMG height=7 src="img/top_nav_bar.gif" width=12>	<A href="javascript:toPage('equip_change.jsp');"><%=i++%>--车站设备编号与系统内设备号转换报表</A></P></TD></TR> --%>
+      <P>　　　　　<IMG height=7 src="img/top_nav_bar.gif" width=12>	<A href="javascript:toPage('para.jsp?report_name=equip_change&amp;param_type=station_sys_equip_change&amp;report_name_cn=车站设备编号与系统内设备号转换报表');"><%=i++%>--车站设备编号与系统内设备号转换报表</A></P></TD></TR>
 
   <TR>
     <TD bgColor=#ffffff height=5>
